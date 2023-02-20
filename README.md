@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-   <h1><b>Math Magicians</b></h1>
+   <h1><b>Todo App</b></h1>
   <!-- <img src="./src/assets/readme_img.png" alt="Awesome Meals image" width="100%" /> -->
 </div>
 
@@ -31,9 +31,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Math Magicians <a name="about-project"></a>
+# 📖 Todo App <a name="about-project"></a>
 
-**Math Magicians** is a webapp built using React.
+**Todo App** is a webapp built using React where you can add or delete tasks.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -70,7 +70,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Math Magicians is currently on construction so it does not have features yet.**
+- **Todo App allows user to visualize tasks**
+- **Todo App allows user to add new tasks**
+- **Todo App allows user to remove tasks**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,14 +103,14 @@ To get a local copy up and running follow these simple example steps.
 Clone this repository in the desired folder:
 ```
 cd my-folder
-git clone https://github.com/jmonto55/Math-magicians.git
+git clone https://github.com/jmonto55/todo-app-react.git
 ```
 
 ### Install
 
 To install this project:
 ```
-cd Math-magicians
+cd todo-app-react
 code .
 npm install
 ```
@@ -140,7 +142,6 @@ npm start
 
 - [ ] **Cool React components will be added in the future**
 - [ ] **Events and hooks will be used**
-- [ ] **The webapp will be unit tested**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
