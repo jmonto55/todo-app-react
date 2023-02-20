@@ -1,17 +1,11 @@
-import React from "react";
-import Header from "./Header";
-import Navbar from "./Navbar";
-import TodosLogic from "./TodosLogic";
-import Modal from "./Modal";
+import React from 'react';
+import Header from './Header';
+import TodosLogic from './TodosLogic';
 
-const TodoApp = () => {
-    return (
-      <>
-        <Navbar />
-        <Header />
-        <TodosLogic />
-      </>
-    );
-  };
-  export default TodoApp;
-  
+const TodoApp = () => (
+  <>
+    <Header />
+    <TodosLogic />
+  </>
+);
+export default TodoApp;
