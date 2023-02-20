@@ -20,14 +20,25 @@ const TodosLogic = () => {
       completed: false,
     },
   ]);
+
   const delTodo = (id) => {
     setTodos([
       ...todos.filter((todo) => todo.id !== id),
     ]);
   };
+
+  const addTodoItem = (title) => {
+    const idd = todos[todos.length - 1].id + 1;
+    const newTodo = {
+      id: idd,
+      title,
+      completed: false,
+    };
+    setTodos([...todos, newTodo]);
+  };
   return (
     <div>
-      <InputTodo />
+      <InputTodo addTodoItem={addTodoItem} />
       <TodosList todosProps={todos} setTodos={setTodos} delTodo={delTodo} />
     </div>
   );
