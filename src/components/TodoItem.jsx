@@ -20,7 +20,11 @@ const TodoItem = ({ itemProp, setTodos, delTodo }) => {
           checked={itemProp.completed}
           onChange={() => handleChange(itemProp.id)}
         />
-        <button type="button" onClick={() => delTodo(itemProp.id)}>Delete</button>
+        <button type="button" onClick={() => delTodo(itemProp.id)}>
+          <span className="material-symbols-outlined">
+            delete
+          </span>
+        </button>
         {itemProp.title}
       </div>
     </li>
