@@ -1,3 +1,5 @@
+import styles from '../sass/TodoItem.module.scss';
+
 const TodoItem = ({ itemProp, setTodos, delTodo }) => {
   const handleChange = (id) => {
     setTodos((prevState) => prevState.map((todo) => {
@@ -11,14 +13,16 @@ const TodoItem = ({ itemProp, setTodos, delTodo }) => {
     }));
   };
   return (
-    <li>
-      <input
-        type="checkbox"
-        checked={itemProp.completed}
-        onChange={() => handleChange(itemProp.id)}
-      />
-      <button type="button" onClick={() => delTodo(itemProp.id)}>Delete</button>
-      {itemProp.title}
+    <li className={styles.item}>
+      <div className={styles.content}>
+        <input
+          type="checkbox"
+          checked={itemProp.completed}
+          onChange={() => handleChange(itemProp.id)}
+        />
+        <button type="button" onClick={() => delTodo(itemProp.id)}>Delete</button>
+        {itemProp.title}
+      </div>
     </li>
   );
 };
