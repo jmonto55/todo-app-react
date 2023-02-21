@@ -181,7 +181,7 @@ I would like to thank Microverse for the information provided to build this proj
 
 - **Is the information saved in any database?**
 
-  - No, all data is saved in Local Storage.
+  - No, it is not.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
